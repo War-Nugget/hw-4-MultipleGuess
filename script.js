@@ -56,6 +56,7 @@ let questions = [
 ]
     const lastQuestion = questions.length - 1;
     let runningQuestion = 0;
+    let count = 0;
     const questionTime = 10; // 10s
     const gaugeWidth = 150; // 150px
     const gaugeUnit = gaugeWidth / questionTime;
@@ -157,11 +158,10 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
+    let img = (scorePerCent >= 80);
+              (scorePerCent >= 60);
+              (scorePerCent >= 40);
+              (scorePerCent >= 20);
     
     scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
