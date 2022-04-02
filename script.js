@@ -163,9 +163,11 @@ function scoreRender(){
               (scorePerCent >= 40);
               (scorePerCent >= 20);
     
-    scoreDiv.innerHTML = "<img src="+ img +">";
+  
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
 }
+
+
 
 
 
