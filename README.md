@@ -1,7 +1,11 @@
 # hw-4-MultipleGuess
 by Sahil Patel
 
-Multiple Guess was the fourth homework given to me by Georgia Tech Coding Bootcamp. This is essentially a multiple choice quiz I have made up using javascript and css. This assignment has taught me that I need to work better on my knowledge on storing data locally on ones device every time you insert an item.
+- Repo: https://github.com/War-Nugget/hw-4-MultipleGuess
+- Website: https://war-nugget.github.io/hw-4-MultipleGuess/
+
+
+Multiple Guess was the fourth homework given to me by Georgia Tech Coding Bootcamp. This is essentially a multiple choice quiz I have made up using javascript and css that saves the high score. This assignment has taught me that I need to work better on my knowledge on storing data locally on ones device every time you insert an item.
 
 ## These were the steps I have taken to complete this assignment.
 
